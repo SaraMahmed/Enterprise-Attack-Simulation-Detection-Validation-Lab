@@ -18,6 +18,35 @@ The environment is built on **VMware Workstation** with a segmented network arch
 * **Attacker Node:** Kali Linux
 * **Networking:** Segmented VLANs (VLAN 10 for Endpoints, VLAN 20 for SIEM Management) with static routing and NAT policies.
 
+##  Project Visuals & Infrastructure
+
+### Network Low Level Diagram (LLD)
+![Network Low Level Diagram](./assets/network-lld.png)
+*Detailed view of the segmented VMware environment and FortiGate routing.*
+
+### Traffic Flow & Communication Matrix
+![Traffic Flow](./assets/traffic-flow.png)
+*Mapping of allowed services (SSH, Syslog, Wazuh Agent) across VLAN boundaries.*
+
+### Asset Inventory
+![Asset Inventory](./assets/asset-inventory.png)
+*Endpoint classification including Ubuntu 22.04, Windows 10, and the Wazuh Manager.*
+
+### Detailed FortiGate Interface Inventory
+![FortiGate Interfaces](./assets/fortigate-interfaces.png)
+
+---
+
+## Cyber Attack Visualization
+
+### Attack Flow Diagram (Kill Chain)
+![Attack Kill Chain](./assets/attack-kill-chain.png)
+*Visualization of the attack path from external reconnaissance to lateral movement.*
+
+### Attack Timeline Visualization
+![Attack Timeline](./assets/attack-timeline.png)
+*A chronological mapping of attacker actions vs. SIEM detection alerts.*
+
 ---
 
 ##  Attack Scenario & MITRE Mapping
