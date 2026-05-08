@@ -12,7 +12,7 @@ The project simulates a multi-stage attack involving reconnaissance, initial acc
 The environment is built on **VMware Workstation** with a segmented network architecture managed by a **FortiGate NGFW**.
 
 * **Security Gateway:** FortiGate Next-Generation Firewall (v7.2.4)
-* **SIEM Platform:** Wazuh Manager (4-node cluster simulation)
+* **SIEM Platform:** Wazuh Manager 
 * **Endpoints:** * Ubuntu 22.04 (Target & Syslog source)
     * Windows 10 Pro (Target with Wazuh Agent)
 * **Attacker Node:** Kali Linux
