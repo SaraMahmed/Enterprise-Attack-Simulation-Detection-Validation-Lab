@@ -36,6 +36,7 @@ The lab simulates a multi-stage attack chain including reconnaissance, brute-for
 
 ### Asset Inventory
 ![Asset Inventory](./assets/asset-inventory.png)
+
 *Endpoint classification including Ubuntu 22.04, Windows 10, and the Wazuh Manager.*
 
 ### Detailed FortiGate Interface Inventory
