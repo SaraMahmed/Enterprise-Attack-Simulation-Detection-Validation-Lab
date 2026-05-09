@@ -31,6 +31,7 @@ The lab simulates a multi-stage attack chain including reconnaissance, brute-for
 
 ### Traffic Flow & Communication Matrix
 ![Traffic Flow](./assets/traffic-flow.png)
+
 *Mapping of allowed services (SSH, Syslog, Wazuh Agent) across VLAN boundaries.*
 
 ### Asset Inventory
